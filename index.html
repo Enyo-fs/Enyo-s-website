@@ -12,7 +12,7 @@
       font-family: 'Arial', sans-serif;
       color: #ffffff;
       overflow: hidden;
-      background: linear-gradient(135deg, #141e30, #243b55);
+      background: linear-gradient(135deg, #0a0a0a, #330000);
       height: 100vh;
       display: flex;
       justify-content: center;
@@ -29,7 +29,7 @@
       width: 100%;
       height: 100%;
       background: url('https://i.pinimg.com/736x/61/53/0c/61530c59a40a8c96dc7e25e7953fe2b9.jpg') center center / cover no-repeat;
-      filter: brightness(0.4);
+      filter: brightness(0.5);
       z-index: -2;
       animation: zoomIn 15s infinite alternate;
     }
@@ -52,7 +52,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: radial-gradient(circle at center, rgba(0, 255, 255, 0.2), transparent);
+      background: radial-gradient(circle at center, rgba(255, 0, 0, 0.2), transparent);
       z-index: -1;
       animation: pulseGlow 5s infinite;
     }
@@ -73,7 +73,7 @@
       padding: 20px;
       background: rgba(0, 0, 0, 0.7);
       border-radius: 15px;
-      box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+      box-shadow: 0 0 30px rgba(255, 0, 0, 0.7);
       animation: fadeIn 3s ease-out;
     }
 
@@ -94,17 +94,17 @@
       margin-bottom: 10px;
       text-transform: uppercase;
       letter-spacing: 2px;
-      color: #00ffff;
-      text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+      color: #ff4d4d;
+      text-shadow: 0 0 20px #ff0000, 0 0 40px #ff3333;
       animation: glowText 2s infinite alternate;
     }
 
     @keyframes glowText {
       from {
-        text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+        text-shadow: 0 0 20px #ff0000, 0 0 40px #ff3333;
       }
       to {
-        text-shadow: 0 0 30px #00e6e6, 0 0 60px #00e6e6;
+        text-shadow: 0 0 30px #ff3333, 0 0 60px #ff6666;
       }
     }
 
@@ -113,38 +113,14 @@
       font-size: 1.2em;
       line-height: 1.8;
       margin: 15px 0;
-      color: #e0f7fa;
-    }
-
-    /* Interactive Button */
-    .container a {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
-      font-size: 1.2em;
-      color: #141e30;
-      background: #00ffff;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
-      transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .container a:hover {
-      background: #03dac6;
-      transform: translateY(-3px);
-      box-shadow: 0 0 20px #03dac6, 0 0 40px #03dac6;
+      color: #ffe6e6;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Enyo</h1>
-    <p>
-     I am a former staff member who enjoys listeniing to music.
-    </p>
-    <a href="#">Discover More</a>
+    <p>Hi, I'm Enyo, a former staff member. Loves listening to pop songs.</p>
   </div>
 </body>
 </html>
